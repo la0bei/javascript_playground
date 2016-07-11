@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>className的使用</title>
+    <style>
+        #div1 {
+            width: 200px;
+            height:200px;
+            border: solid;
+            /*background-color: red;*/
+            display: block;
+        }
+        .box {
+            background-color: aquamarine;
+        }
+
+    </style>
+    <script>
+        function change()
+        {
+            document.getElementById("div1").className='box';
+        }
+
+    </script>
+</head>
+<body>
+<input id="button" type="button" value="Click" onclick="change()">
+<div id="div1"></div>
+</body>
+</html>
