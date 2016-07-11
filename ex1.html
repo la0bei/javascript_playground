@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>onmouseover和onmouseout练习</title>
+<style>
+    #div1 {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        border: solid;
+        display: none;
+    }
+
+</style>
+</head>
+<body>
+<input type="checkbox" onmouseover="document.getElementById('div1').style.display='block';" onmouseout="document.getElementById('div1').style.display='none';">
+<div id="div1">样式显示中。。。</div>
+</body>
+</html>
