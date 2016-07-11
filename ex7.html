@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>函数参数的引入</title>
+    <style>
+        #div1{
+            width: 200px;
+            height:200px;
+            border: 1px solid;
+            background-color: aqua;
+            display: block;
+        }
+
+    </style>
+    <script>
+        function setColor(color)
+        {
+            document.getElementById('div1').style.backgroundColor=color;
+        }
+
+    </script>
+</head>
+<body>
+<input type="button" value="toGreen" onclick="setColor('green')">
+<input type="button" value="toRed" onclick="setColor('red')">
+<input type="button" value="toBlack" onclick="setColor('black')">
+<br>
+<div id="div1"></div>
+</body>
+</html>
